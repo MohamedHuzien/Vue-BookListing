@@ -31,8 +31,8 @@ export default {
          }
     },
     methods: {
-        pushBook : function(bookTitle,BookAuther){
-            this.books.push( { title: bookTitle, author: BookAuther })
+        pushBook : function(bookTitle,BookAuthor){
+            this.books.push( { title: bookTitle, author: BookAuthor })
         }
     },  
 }
